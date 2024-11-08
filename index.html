@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editing Software Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar menu -->
+        <aside class="sidebar">
+            <h2>Editing Software Categories</h2>
+            <ul id="category-list">
+                <li><a href="#all">All</a></li>
+                <li><a href="#recording">Recording</a></li>
+                <li><a href="#video-editing">Video Editing</a></li>
+                <li><a href="#3d-editing">3D Editing</a></li>
+                <li><a href="#streaming">Streaming</a></li>
+                <li><a href="#screen-recording">Screen Recording</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main content area -->
+        <main class="content" id="main-content">
+            <section>
+                <h1>Welcome to the Editing Software Catalog</h1>
+                <p>This catalog provides details on various editing software for video, audio, and 3D projects.</p>
+            </section>
+            <!-- Software items will be dynamically injected here -->
+            <div id="software-list"></div>
+        </main>
+
+        <!-- Right sidebar for widgets -->
+        <aside class="right-sidebar">
+            <h2>Support Us</h2>
+            <div class="widget-container">
+                <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+                <script type='text/javascript'>
+                    kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'P5P7PYTKA');
+                    kofiwidget2.draw();
+                </script>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
